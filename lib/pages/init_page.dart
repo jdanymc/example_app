@@ -10,13 +10,14 @@ class InitPage extends StatelessWidget {
       child: Scaffold(
         body: Container(
           width: double.infinity,
-          decoration: const BoxDecoration(
+          decoration: BoxDecoration(
             color: Colors.amber,
             image: DecorationImage(
-              fit: BoxFit.cover,
-              image: NetworkImage(
-                  "https://media.istockphoto.com/id/1168365129/photo/authentication-by-facial-recognition-concept-biometric-security-system.jpg?s=1024x1024&w=is&k=20&c=UM7EV1mAJE5dVij1N9RtRFcnDRtCzc-1fTR7eOp3V80="),
-            ),
+                fit: BoxFit.cover,
+                image: const NetworkImage(
+                    "https://media.istockphoto.com/id/1168365129/photo/authentication-by-facial-recognition-concept-biometric-security-system.jpg?s=1024x1024&w=is&k=20&c=UM7EV1mAJE5dVij1N9RtRFcnDRtCzc-1fTR7eOp3V80="),
+                colorFilter: ColorFilter.mode(
+                    Colors.black.withOpacity(0.7), BlendMode.multiply)),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -29,7 +30,7 @@ class InitPage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              InkWell(
+              GestureDetector(
                 onTap: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => HomePage()));

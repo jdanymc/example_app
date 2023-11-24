@@ -1,9 +1,8 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class Equipo {
   String nombre;
+  String tipo;
   IconData icono;
   String fabricante;
   String modelo;
@@ -12,6 +11,7 @@ class Equipo {
 
   Equipo({
     required this.nombre,
+    required this.tipo,
     required this.icono,
     required this.fabricante,
     required this.modelo,
