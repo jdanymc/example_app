@@ -18,22 +18,22 @@ class ProfilePage extends StatelessWidget {
             height: double.infinity,
             color: Colors.cyan,
           ),
-          // Positioned(
-          //   top: 50,
-          //   left: 50,
-          //   child: Text(
-          //     "Hola pertenesco a un stack",
-          //     style: TextStyle(color: Colors.white, fontSize: 20),
-          //   ),
-          // ),
-          // Positioned(
-          //   top: 50,
-          //   left: 50,
-          //   child: ElevatedButton(
-          //     onPressed: () {},
-          //     child: Text("Presionar"),
-          //   ),
-          // ),
+          Positioned(
+            top: 50,
+            left: 50,
+            child: Text(
+              "Hola pertenesco a un stack",
+              style: TextStyle(color: Colors.white, fontSize: 20),
+            ),
+          ),
+          Positioned(
+            top: 50,
+            left: 50,
+            child: ElevatedButton(
+              onPressed: () {},
+              child: Text("Presionar"),
+            ),
+          ),
         ],
       ),
     ));
