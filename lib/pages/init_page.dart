@@ -51,6 +51,7 @@ class InitPage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              
             ],
           ),
         ),

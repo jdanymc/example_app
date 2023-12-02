@@ -37,13 +37,19 @@ class _FuturePageState extends State<FuturePage> {
             iEdad: 20,
             sDni: "45871258",
             sName: "Juan Perez",
-            sSexo: 'M'),
+            sSexo: 'M',
+            dRating: 15,
+            iFollowers: 15,
+            iLikes: 15),
         Persona(
             bViveEnPeru: true,
             iEdad: 60,
             sDni: "55221144",
             sName: "Maria Ibañez",
-            sSexo: 'F'),
+            sSexo: 'F',
+            dRating: 60,
+            iFollowers: 50,
+            iLikes: 6),
       ];
     });
   }

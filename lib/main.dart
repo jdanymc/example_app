@@ -7,10 +7,10 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      // home: const InitPage(),
+      home: const InitPage(),
       // home: MainPage(),
       //home: FuturePage(),
-      home: ProfilePage(),
+      //home: ProfilePage(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
